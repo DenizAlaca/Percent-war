@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Yüzde Savaşı</string>
+
+
+    <string name="ziyaretciol">Ziyaretçi Ol</string>
+    <string name="email">E-mail</string>
+    <string name="ziyaretcigiris">Z. Olarak Giriş Yap</string>
+    <string name="veya">Veya</string>
+    <string name="kayitlimisin">Zaten Kayıtlı Mısın?</string>
+    <string name="girisyap">Giriş Yap</string>
+
+    <string name="maillegirisyap">Maille Giriş Yap</string>
+    <string name="muzigikapat">Müziği Aç-Kapat</string>
+    <string name="cikisyap">Çıkış Yap</string>
+
+
+    <string name="magaza">Magaza</string>
+
+
+    <string name="kullaniciadi">Kullanıcı Adı</string>
+    <string name="kullanicinumarasi">Numaran:</string>
+    <string name="sifre">Şifre</string>
+
+    <string name="emaildogrulama">E-mail Doğrulama</string>
+    <string name="dogrula">Doğrula</string>
+
+    <string name="leaderboard">Leaderboard</string>
+
+
+    <string name="vris">VRIS</string>
+    <string name="kullaniciadin">Kullanıcı Adı:</string>
+
+    <string name="cantopla">Reklam İzleyerek Can Topla!(+2)</string>
+
+    <string name="tuto">Hoşgeldin, temel noktalar aşağıda. Önemli olan leaderboardda üst sıralara çıkıp ödülleri toplamak.</string>
+    <string name="tuto1">Buradan ziyaretçi olabilirsiniz.</string>
+    <string name="tuto2">Buradan Mail ile giriş yapıp kayıt olabilirsiniz.</string>
+    <string name="tuto3">Bu şekilde biraz karışık. Detaylarını anlatalım.</string>
+    <string name="tuto4">Burası can sayınızın olduğu kısım. Her saat bu kalbe tıklayarak can toplayabilirsiniz.</string>
+    <string name="tuto5">Burası seviyenizin olduğu kısım. Seviyenize göre sıralama tablosunda üst sıralara çıkarsınız.</string>
+    <string name="tuto6">Burası sıralama kısmı. En yüksek kaç seviye var, kendiniz kaçıncı sıradasınız bunlara bakabilirsiniz.</string>
+    <string name="tuto7">Burası menü açma kısmı, içerisine bakalım.</string>
+    <string name="tuto8">Menüde önemi olan kısım, mailinizle giriş yapmadıysanız buradan doğrulama işlemini yapabilirsiniz.</string>
+    <string name="tuto9">Burası şansınızın yazdığı kısım. Her seviye yükselişinizde -%2, her seviye yükselemeyişinizde +%2 şansınız artar veya azalır.</string>
+    <string name="tuto10">Burası bizim televizyonumuz. Oynamadığınız zamanlarda çekmez.</string>
+    <string name="tuto11">Bu gamepadi kullanırsanız televizyona görüntü gelir ve kazanıp kaybettiğinizi anlarsınız.</string>
+    <string name="tutogo">Geç</string>
+
+    <string name="promo">Promosyon Kodu</string>
+    <string name="koduyazin">Promosyon Kodunu Yazın</string>
+    <string name="kodukullan">Kodu Kullan</string>
+    <string name="kullanilmis">Önceden Kullanılmış</string>
+
+    <string name="degerlendir">Değerlendir</string>
+    <string name="kapat">Kapat</string>
+    <string name="degerlendirme">İlk İzleniminizi Bizimle Paylaşır Mısınız?</string>
+    <string name="degerlendirmeyazin">Düşüncelerinizi yazın.</string>
+    <string name="odullistesi">Ödül Listesi</string>
+
+    <string name="birinci">1. -> 250₺ Amazon Hediye Kartı</string>
+    <string name="ikinci">2. -> 150₺ Amazon Hediye Kartı</string>
+    <string name="ucuncu">3. -> 100₺ Amazon Hediye Kartı</string>
+
+</resources>

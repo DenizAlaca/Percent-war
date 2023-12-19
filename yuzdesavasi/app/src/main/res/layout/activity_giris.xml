@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GirisActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ziyaretci"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline9">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/ziyaretciView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/blurbg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.85">
+
+                <TextView
+                    android:id="@+id/ziyaretciolText"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:fontFamily="@font/joystix"
+                    android:gravity="center"
+                    android:text="@string/ziyaretciol"
+                    android:textAlignment="center"
+                    android:textColor="#F7A937"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toTopOf="@+id/ziyaretcimailText"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHeight_percent="0.2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.6" />
+
+                <EditText
+                    android:id="@+id/ziyaretcimailText"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:backgroundTint="#F7A937"
+                    android:ems="10"
+                    android:fontFamily="@font/misterpixel"
+                    android:hint="@string/email"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColor="#F7A937"
+                    android:textColorHighlight="#FFF2DF"
+                    android:textColorHint="#F7A937"
+                    android:textColorLink="#F7A937"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toTopOf="@+id/ziyaretcigirisButon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHeight_percent="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ziyaretciolText"
+                    app:layout_constraintWidth_percent="0.75" />
+
+                <Button
+                    android:id="@+id/ziyaretcigirisButon"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/butonbg"
+                    android:fontFamily="@font/joystix"
+                    android:text="@string/ziyaretcigiris"
+                    android:textAllCaps="false"
+                    android:textColor="#F7A937"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHeight_percent="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ziyaretcimailText"
+                    app:layout_constraintWidth_percent="0.8" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.4" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/joystix"
+            android:gravity="center"
+            android:text="@string/veya"
+            android:textAlignment="center"
+            android:textColor="#F7A937"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/kayitli"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline14">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/kayitliView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/blurbg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.85">
+
+                <TextView
+                    android:id="@+id/kayilimisinText"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:fontFamily="@font/joystix"
+                    android:gravity="center"
+                    android:text="@string/kayitlimisin"
+                    android:textAlignment="center"
+                    android:textColor="#F7A937"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toTopOf="@+id/girisButon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHeight_percent="0.2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.8" />
+
+                <Button
+                    android:id="@+id/girisButon"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/butonbg"
+                    android:fontFamily="@font/joystix"
+                    android:text="@string/girisyap"
+                    android:textColor="#F7A937"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHeight_percent="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/kayilimisinText"
+                    app:layout_constraintWidth_percent="0.8" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
